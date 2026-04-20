@@ -2,29 +2,6 @@ export default function Home() {
   return (
     <main className="w-full">
 
-{/* NAVBAR */}
-<nav className="w-full flex items-center bg-[#F3F4F6] border-b-[3px] border-[#0A2A5E] px-24 py-5">
-
-  {/* MENU (SEJAJAR DENGAN CONTENT BAWAH) */}
-  <div className="flex items-center gap-32 text-[23px] font-semibold">
-
-    <a className="text-[#0A2A5E]">About Us</a>
-    <a className="text-black">Track Your Cargo</a>
-    <a className="text-black">Privacy Policy</a>
-    <a className="text-black">Contact Us!</a>
-
-  </div>
-
-  {/* LOGIN */}
-  <div className="ml-auto">
-    <button className="bg-[#1D3A6E] text-white px-7 py-2 rounded-lg text-[15px] shadow">
-      Login
-    </button>
-  </div>
-
-</nav>
-
-
 {/* HERO */}
 <section className="relative w-full h-[calc(100vh-80px)] overflow-hidden">
 
@@ -279,7 +256,6 @@ export default function Home() {
   </div>
 
 </section>
-
 
 {/* FOOTER */}
 <footer className="w-full bg-[#E5E7EB] py-6 px-20 flex justify-between items-center text-[20px] text-gray-500">
